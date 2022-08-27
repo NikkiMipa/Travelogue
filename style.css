@@ -1,0 +1,36 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+h1, h2, h3, label, form {
+  color: #f5c71a;
+  text-align: center ;
+  }
+h4 {
+  color: #9400d3;
+  text-align: center;
+}
+ul, ol {
+  color: white; 
+}
+
+body {
+  background-color: black;
+  }
+p {
+  color: white ;
+  text-align: center ;
+  }
+.btn-text-center{
+	text-align: center;	
+}
+
+<!--background-image: url("earthbound.gif") background-size: 100% 100% -->
