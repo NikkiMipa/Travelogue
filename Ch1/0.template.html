@@ -2,8 +2,8 @@
 <html>
 <head>
   <div class="topdiv">
-  <a href="../index.html">
-  <img src="../logo3.png" alt="Logo will go here." class="center"
+  <a title="Home" href="../Nav/home-page.html">
+  <img src="../logo.png" alt="Logo will go here." class="center"
   height="100"
   width="100">
   </a>
@@ -11,45 +11,61 @@
 </div>
 <link rel="stylesheet" href="../style1.css">
 </head>
-
 <body>
-<div class="navdiv">
-<nav>
-<ul class="ul">
-<li class="inline"><a href="#"><sub>Home</a></li>
-<li class="inline"><a href="#"><sub>About Us</a></li>
-<li class="inline"><a href="#"><sub>Contact</a></li>
-</ul>
-</nav>
-</div>
 
-<h1> 1 </h1>
+<h1>Chapter 1</h1>
+
+<!-- This begins the copy-pasta portion of the page.-->
+<!-- See: Travelogue.txt (Goblets)-->
+
 <div class="div">
-<h3 style="text-align:left; margin-left:20px;"> Chapter 1: </h3>
-<ol start="0">
-<a href="0.template.html">
-  <li> Thank You. </li></a>
-<a href="0.template.html">
+<img title="I made it out of clay!" src="../Ch1/01.gif" class="goblets">
+
+<h3 style="text-align:left; margin-left:20px; margin-bottom:0px;"> 
+<a class="linkc" href="#">
+Chapter 1: 
+</a>
+</h3>
+
+<ul class="ul">
+<a href="../Ch1/0.template.html">
+  <li> Template Page. </li></a>
+<a href="../Ch1/page1.html">
   <li>Page 1</li></a>
-<a href="file:///C:/Users/nimik/Desktop/Travelog/page-1.html">
+<a href="../Ch1/page2.html">
   <li>Page 2</li></a>
-  <li>Page 3</li>
-</ol> 
+<a href="../Ch1/page3.html">
+  <li>Page 3</li></a>
+</ul> 
 <h3 style="text-align:left; margin-left:20px;"> Chapter 2: </h3>
 </div>
 
-<div class="articlediv">
+<div class="divr">
+<img title="I made it out of clay!" src="../Ch1/02.gif" class="goblets">
+<ul class="list">
+  <li><a href="../Ch1/page1.html">Latest Update</a></li> 
+ <li><a href="../Nav/about.html">About</a></li>
+  <li><a href="twitter.com">Twitter</a></li>
+</div>
+<!-- Only content below this line.-->
+
+
+
+
+<div class="articlediv image">
+<Img src="testpic1.png"
+style="display:block;margin-left:auto;margin-right:auto;width:30%;border:5px solid #4A3511;">
   <article>
-  <h1>The Sack of Constantinople</h1>
-  <p> The sack of Constantinople occurred in April 1204 and marked the culmination of the Fourth Crusade. Crusader armies captured, looted, and destroyed parts of Constantinople, then the capital of the Byzantine Empire. After the capture of the city, the Latin Empire (known to the Byzantines as the Frankokratia or the Latin Occupation)[3] was established and Baldwin of Flanders was crowned Emperor Baldwin I of Constantinople in the Hagia Sophia.<br>
-
-After the city's sacking, most of the Byzantine Empire's territories were divided up among the Crusaders. Byzantine aristocrats also established a number of small independent splinter states, one of them being the Empire of Nicaea, which would eventually recapture Constantinople in 1261 and proclaim the reinstatement of the Empire. However, the restored Empire never managed to reclaim its former territorial or economic strength, and eventually fell to the rising Ottoman Empire in the 1453 Siege of Constantinople.<br>
-
-The sack of Constantinople is a major turning point in medieval history. The Crusaders' decision to attack the world's largest Christian city was unprecedented and immediately controversial. Reports of Crusader looting and brutality scandalised and horrified the Orthodox world; relations between the Catholic and Orthodox churches were catastrophically wounded for many centuries afterwards, and would not be substantially repaired until modern times.<br>
-
-The Byzantine Empire was left much poorer, smaller, and ultimately less able to defend itself against the Seljuk and Ottoman conquests that followed; the actions of the Crusaders thus directly accelerated the collapse of Christendom in the east, and in the long run helped facilitate the later Ottoman conquests of Southeastern Europe.<br>
+  <h2 class="h">A traveler from Kingston reaches Split Creek Watershed!</h2>
+  <p class="p"> Ru'Shai Furroway has traveled to the periphery of the Fishpeeker Mayoralty to 
+uncover the truth behind the elusive Cult of the New Dawn. With the shield on his
+back, a stack of notes, and a mule to carry provisions, he begins the investigation...
+<br><br>
 </p>
   </article>
+<button type="button" class="btn-text-center">
+<a style="color:black" href"#p1 button">Read Page One</a>
+</button>
 </div>
 
 <div class="btn-text-center">
@@ -65,10 +81,23 @@ The Byzantine Empire was left much poorer, smaller, and ultimately less able to 
   </p>
   </article>  
 
-<!-- Comment: Buttons that redirect to either page 1 or most recent page will go here. -->
+<!-- 
  
   <audio hidden controls autoplay>
-	<source src="sound.mp3" type="audio/mpeg">
+	<source src="sound.mp3" type="audio/mpeg">  -->
+
+<footer>
+
+<div class="pagination">
+  <a id="btnPrev" value="Previous" href="#">&laquo;</a>
+  <a class="active" href="#">0</a>
+  <a href="../Ch1/page1.html">1</a>
+  <a href="../Ch1/page2.html">2</a>
+  <a href="../Ch1/page3.html">3</a>
+  <a id="btnNext" value="Next" href="../Ch1/page1.html">&raquo;</a>
+</div>
+
+</footer>
 </body>
 
 <script>
@@ -77,5 +106,6 @@ The Byzantine Empire was left much poorer, smaller, and ultimately less able to 
   ele.style.display = "block"
 }
 </script>
+
 
 </html>
