@@ -11,7 +11,7 @@
 </div>
 <link rel="stylesheet" href="../style1.css">
 </head>
-<body style="background-image: url('bg.png'); background-size: 40% 40%;">
+<body style="background-image: url('bg.png'); background-size: 420px 420px;">
 
 <h1>2</h1>
 
@@ -57,7 +57,8 @@ Chapter 1:
 <div class="box" style="display : block" id="roll">
 <div class="btn-text-center">
   <button type="button" style="position: relative; top: 200px; left 45%;"
-class="coolbtn" onclick="unroll0(); roll0()">TRANSLATE</button>
+class="coolbtn" onclick="unroll0(); roll0()">
+</button>
 </div>
 
 </div>
@@ -102,9 +103,7 @@ magicians that ride the Moving Mountains. Wild.
 
 
   </article>
-
-
-
+<!--
   <article style="display : none" id="unroll">
   <h1>
   I slammed
@@ -113,11 +112,16 @@ magicians that ride the Moving Mountains. Wild.
   my penis in the car door!
   </p>
   </article>
-
+-->
 </div>
 
+<div class="articlediv image" style="display : none" id="unroll0">
+  <article>
+<p class="p">Pee Niss
+</p>
 
-
+</article>
+</div>
 
 
 <!--
@@ -130,12 +134,14 @@ magicians that ride the Moving Mountains. Wild.
 <div class="footer" >
   <a class="larrow" href="../Ch1/page1.html">
     <img  src="../larrow1.png"></a>
-  <img class="fgoblet" title="I made it out of clay!" src="../Ch1/01.gif">
+  <img class="fgoblet" onclick="topFunction()" title="Scroll to top!"
+   src="../Ch1/01.gif">
   <a class="rarrow" href="../Ch1/page3.html">
   <img src="../rarrow1.png"></a>
 </div>
 </footer>
 </body>
+
 
 <script>
   function unroll0() {
@@ -143,6 +149,7 @@ magicians that ride the Moving Mountains. Wild.
   ele.style.display = "block"
 }
 </script>
+
 <script>
   function roll0() {
   var ele = document.getElementById("roll");
@@ -150,5 +157,11 @@ magicians that ride the Moving Mountains. Wild.
 }
 </script>
 
+<script>
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </html>
